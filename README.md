@@ -45,6 +45,25 @@ Here are the parameters available to pass to the function
 
 ## Others
 
+### Extended Colors
+
+If you are suing the `RandomType.EXTENDED_COLOR` you will get a array of ExtendedColors instead of strings.
+
+ExtendedColor are defined in the following format:
+
+```ts
+export interface ExtendedColor {
+    id: string
+    name: string
+    hex: string
+    r: number
+    g: number
+    b: number
+}
+```
+
+### randomId
+
 You can also use the `randomId` function as it is exported
 
 ```ts
@@ -53,6 +72,8 @@ import {randomId} from "@pixium-digital/random-namer"
 const ID = randomId()
 // 3945
 ```
+
+
 
 ## Author
 
