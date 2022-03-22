@@ -5,7 +5,7 @@ This project aims to simply provide random usernames, team names, gamertags, adj
 ## Installation
 
 ```ts
-yarn install
+yarn install @pixium-digital/random-namer
 ```
 
 ## Usage
