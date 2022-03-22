@@ -1,6 +1,6 @@
 {
   "name": "@pixium-digital/random-namer",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple tool for randomizing user and team names",
   "repository": "https://github.com/pixiumdigital/random-namer.git",
   "author": "Burlet Mederic <mederic.burlet@pixiumdigital.com>",
